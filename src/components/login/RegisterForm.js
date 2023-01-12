@@ -168,7 +168,7 @@ export default function RegisterForm({ setVisible }) {
               <div className="reg_line">
                 <RegisterInput
                   type="text"
-                  placeholder="Mobile number or email address"
+                  placeholder="E-mail address"
                   name="email"
                   onChange={handleRegisterChange}
                 />
@@ -206,12 +206,12 @@ export default function RegisterForm({ setVisible }) {
                   genderError={genderError}
                 />
               </div>
-              <div className="reg_infos">
+              {/* <div className="reg_infos">
                 By clicking Sign Up, you agree to our{" "}
                 <span>Terms, Data Policy &nbsp;</span>
                 and <span>Cookie Policy.</span> You may receive SMS
                 notifications from us and can opt out at any time.
-              </div>
+              </div> */}
               <div className="reg_btn_wrapper">
                 <button className="blue_btn open_signup">Sign Up</button>
               </div>

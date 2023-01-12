@@ -1,6 +1,8 @@
 import { useState } from "react";
+import useTitle from "../../Title";
 
 export default function Profile() {
+  useTitle("profile", true);
   const [data, setData] = useState({
     name: "",
     password: "",

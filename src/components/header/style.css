@@ -58,6 +58,7 @@ header {
 .header_middle {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 14px;
   transform: translateX(3px);
 }
@@ -659,9 +660,3 @@ header {
 }
 
 /*----Active header----*/
-
-
-.logo {
-  height: 40px;
-  width: 40px;
-}

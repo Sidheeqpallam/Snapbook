@@ -34,7 +34,7 @@ export default function AllMenu() {
               />
             ))}
           </div>
-          <div className="all_menu_group">
+          {/* <div className="all_menu_group">
             <div className="all_menu_group_header">Shopping</div>
             {menu.slice(9, 11).map((item, i) => (
               <AllMenuItem
@@ -88,7 +88,7 @@ export default function AllMenu() {
                 key={i}
               />
             ))}
-          </div>
+          </div> */}
         </div>
         <div className="all_right">
           <div className="all_right_header">Create</div>

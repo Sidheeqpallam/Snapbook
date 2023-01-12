@@ -38,8 +38,7 @@ export default function Header() {
       <div className="header_left">
         <Link to="/" className="header_logo">
           <div className="circle">
-            {/* <Logo /> */}
-            <img src="../../icons/snapbook.png" className="logo" />
+            <img src="/icons/snapbook.png" style={{ height: "35px" }}></img>
           </div>
         </Link>
         <div
@@ -51,7 +50,7 @@ export default function Header() {
           <Search color={color} />
           <input
             type="text"
-            placeholder="Search Snapbook"
+            placeholder="Search Facebook"
             className="hide_input"
           />
         </div>
@@ -69,12 +68,6 @@ export default function Header() {
         <Link to="/" className="middle_icon hover1">
           <Watch color={color} />
           <div className="middle_notification">9+</div>
-        </Link>
-        <Link to="/" className="middle_icon hover1">
-          <Market color={color} />
-        </Link>
-        <Link to="/" className="middle_icon hover1 ">
-          <Gaming color={color} />
         </Link>
       </div>
       <div className="header_right">

@@ -51,9 +51,9 @@ export default function LoginForm({ setVisible }) {
   return (
     <div className="login_wrap">
       <div className="login_1">
-        <img src="../../icons/logo.png" alt="" />
+        <img src="../../icons/facebook.svg" alt="" />
         <span>
-          Snapbook helps you connect and share with the people in your life.
+          Facebook helps you connect and share with the people in your life.
         </span>
       </div>
       <div className="login_2">
@@ -90,7 +90,7 @@ export default function LoginForm({ setVisible }) {
               </Form>
             )}
           </Formik>
-          <Link to="/forgot" className="forgot_password">
+          <Link to="/reset" className="forgot_password">
             Forgotten password?
           </Link>
           <DotLoader color="#1876f2" loading={loading} size={30} />
@@ -104,9 +104,9 @@ export default function LoginForm({ setVisible }) {
             Create Account
           </button>
         </div>
-        <Link to="/" className="sign_extra">
+        {/* <Link to="/" className="sign_extra">
           <b>Create a Page</b> for a celebrity, brand or business.
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
